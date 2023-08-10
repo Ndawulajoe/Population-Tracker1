@@ -27,7 +27,7 @@ export default function NewBorn() {
   return (
   
     <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems: "center",minHeight: "100vh"}}>
-       {/* <h2>Fill in this form </h2> */}
+       <h2>Fill in this form </h2>
        <TextInput
         onChange={(event) => handleInputChange("fullName", event.target.value)}
         name="fullName"
