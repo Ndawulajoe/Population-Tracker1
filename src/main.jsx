@@ -1,9 +1,7 @@
 import  React from "react";
 // import ErrorPage from "./error-page";
-import DeathInput from "./routes/DeathInput";
 import  ReactDOM from "react-dom/client";
 import Root from "./routes/root";
-import Contact from "./routes/contacts";
 import NewBorn from "./routes/NewBorn";
 import NewDeath from "./routes/NewDeath";
 import "./index.css"
