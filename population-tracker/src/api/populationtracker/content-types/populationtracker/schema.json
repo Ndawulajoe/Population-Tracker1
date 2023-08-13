@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "populationtrackers",
+  "info": {
+    "singularName": "populationtracker",
+    "pluralName": "populationtrackers",
+    "displayName": "populationtracker"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullaname": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "dataofbirth": {
+      "type": "date"
+    },
+    "mother": {
+      "type": "string"
+    },
+    "father": {
+      "type": "string"
+    },
+    "hospitalname": {
+      "type": "string"
+    }
+  }
+}
