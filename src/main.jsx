@@ -4,6 +4,7 @@ import  ReactDOM from "react-dom/client";
 import Root from "./routes/root";
 import NewBorn from "./routes/NewBorn";
 import NewDeath from "./routes/NewDeath";
+import Population from "./routes/Population";
 import "./index.css"
 import {
   createBrowserRouter,
@@ -14,7 +15,7 @@ import "./index.css";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <Root/>,
     
   },
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path:'/death',
     element:<NewDeath/>,
+  },
+  {
+    path:"/population",
+    element:<Population/>
   }
 
 ]);

@@ -6,7 +6,7 @@ import { DatePickerInput } from '@mantine/dates';
 export default function NewBorn() {
   const [formdata, setFormData] = useState({
     fullaname: '',
-    dateofBirth: null,
+    dateofBirth: '',
     mother: '',
     father: '',
     hospitalname: '',
@@ -51,7 +51,7 @@ export default function NewBorn() {
           name='dateofBirth'
           value={formdata.dateofBirth}
           // onChange={handleChanges}
-          onChange={(value) => handleChanges({ target: { name: 'dateofBirth', value } })}
+          onChange={(value) => handleChanges({ target: { name: 'dateofBirth', value:value } })}
           popoverProps={{ withinPortal: true }}
           label="Departure date"
           placeholder="When will you leave?"
